@@ -1,0 +1,77 @@
+body {
+    font-family: 'Karla', sans-serif;
+    background: url('/images/clouds.jpg');
+    background-size: cover;
+    color:rgb(6, 26, 68);
+  }
+  
+  .main {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .card {
+    background-color: rgb(238, 220, 238, .3);
+    border: 2px solid rgb(6, 26, 68);
+    border-radius: 4px;
+    padding: 30px;
+    margin: 20px
+  }
+
+  a, button {
+    text-decoration: none;
+    font-size: 16px;
+    color:rgb(6, 26, 68);
+    font-family: 'Karla', sans-serif;
+    background: none;
+    border: 2px solid rgb(78, 147, 202);
+    margin: 8px
+  }
+
+  a:hover, button:hover {
+    background-color: rgba(155, 113, 155, 0.3);
+  }
+
+  .buttons {
+      display: flex
+  }
+
+  h2 {
+      font-size: 30px
+  }
+
+  p {
+    font-size: 20px
+  }
+  
+  nav {
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(48, 94, 138, 0.6);
+  }
+  
+  nav a {
+    color: rgb(6, 26, 68);
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    border: 2px solid rgb(6, 26, 68);
+    border-radius: 4px;
+    padding: 10px
+  }
+  
+  nav a:hover {
+    background-color: rgb(238, 220, 238, .3);
+  }
